@@ -1,0 +1,86 @@
+
+.favoriteMovie {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin: 0.5%;
+}
+
+.favoriteMovie:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+}
+
+.favoriteMovie img {
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.favoriteMovie .movieDetails {
+    flex: 1;
+}
+
+.favoriteMovie .movieTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.favoriteMovie .movieInfo {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.favoriteMovie .movieDescription {
+    font-size: 14px;
+    width: 90%;
+}
+.buttonWarp{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    column-gap: 5%;
+}
+.favoriteMovie .deleteButton {
+    margin-top: 10px;
+    border: none;
+    background: linear-gradient(to right, #f58b24, #f03255);
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+
+.favoriteMovie .deleteButton:hover {
+    background-color: #c82333;
+    filter: brightness(1.2);
+    transform: scale(1.05);
+}
+.favoriteMovie .playButton {
+    margin-top: 10px;
+    border: none;
+    background: linear-gradient(to right, #93329e, #2b98f0);
+    color: #fff;
+    padding: 15px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+.favoriteMovie .playButton:hover {
+    background-color: #0056b3;
+    filter: brightness(1.2);
+    transform: scale(1.05);
+}

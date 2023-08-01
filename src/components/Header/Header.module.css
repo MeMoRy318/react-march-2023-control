@@ -1,0 +1,33 @@
+.header,.header__content{
+    height: 12vh;
+    background: #141414;
+    width: 100%;
+    position: sticky;
+    flex: 0 0 12vh 100%;
+    z-index: 1000;
+
+}
+.header__content{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    column-gap: 2%;
+    padding:0 10px;
+
+}
+.header__searchInput{
+ width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.toggle{
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+}
+.userInfo{
+    display: flex;
+    width: 5%;
+    justify-content: flex-end;
+}

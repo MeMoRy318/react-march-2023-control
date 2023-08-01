@@ -1,0 +1,8 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+    max-height: 60vh;
+    object-fit: fill;
+}
+.image-gallery-thumbnails-wrapper{
+    background: rgba(255, 255, 255, 0.3);
+}

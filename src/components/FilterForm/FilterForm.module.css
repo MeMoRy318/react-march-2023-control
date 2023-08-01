@@ -1,0 +1,55 @@
+.formContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    padding: 10px;
+    align-items: flex-end;
+    border-radius: 5px;
+    column-gap: 5%;
+}
+
+.average {
+    display: flex;
+    column-gap: 3%;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.formContainer h5 {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.formContainer .select,
+.formContainer .input[type='number'] {
+    padding: 5px 15px 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.formContainer .button {
+    padding: 5px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.formContainer .button + .button {
+    margin-left: 10px;
+}
+
+.formContainer .button:hover {
+    background-color: #0056b3;
+}

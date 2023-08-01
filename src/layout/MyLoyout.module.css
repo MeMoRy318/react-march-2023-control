@@ -1,0 +1,17 @@
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.active{
+    background: url('https://w0.peakpx.com/wallpaper/363/426/HD-wallpaper-avengers-endgame-avengers-assemble-marvel-entertainment.jpg') center/ cover no-repeat fixed;
+
+}
+.content{
+    flex: 1 1 auto;
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.7);
+}
